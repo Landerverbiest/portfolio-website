@@ -1,0 +1,61 @@
+====================================
+  GITHUB REPOSITORY SETUP
+  Portfolio Website - Lander Verbiest
+====================================
+
+STAP 1: Maak een GitHub repository
+-----------------------------------
+1. Ga naar: https://github.com/new
+2. Vul in:
+   - Repository name: portfolio-website
+   - Description: Professional IT Portfolio - Systeembeheerder
+   - Public (aanvinken)
+   - NIETS anders aanvinken!
+3. Klik "Create repository"
+
+STAP 2: Kopieer je repository URL
+----------------------------------
+Na het aanmaken zie je een pagina met commando's.
+Kopieer de URL die eindigt op .git
+Bijvoorbeeld: https://github.com/JOUW-NAAM/portfolio-website.git
+
+STAP 3: Open Command Prompt of Git Bash
+----------------------------------------
+Druk op Windows toets + R
+Typ: cmd
+Druk op Enter
+
+STAP 4: Voer deze commando's uit
+---------------------------------
+Kopieer en plak deze commando's (één voor één):
+
+cd C:\Users\verbi\Desktop\portfolio-lander-verbiest
+
+git remote add origin https://github.com/JOUW-NAAM/portfolio-website.git
+
+git branch -M main
+
+git push -u origin main
+
+Vervang "JOUW-NAAM" met je GitHub gebruikersnaam!
+
+Je wordt mogelijk gevraagd om in te loggen met je GitHub account.
+
+====================================
+KLAAR! Je website staat nu op GitHub
+====================================
+
+Je kunt je repository bekijken op:
+https://github.com/JOUW-NAAM/portfolio-website
+
+Om GitHub Pages te activeren (gratis hosting):
+1. Ga naar je repository op GitHub
+2. Klik op "Settings"
+3. Scroll naar "Pages" in het linkermenu
+4. Bij "Source" selecteer "main" branch
+5. Klik "Save"
+6. Je website is live op: https://JOUW-NAAM.github.io/portfolio-website
+
+====================================
+
+Hulp nodig? Email: lander.verbiest@student.hogent.be
