@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lander Verbiest | Systeembeheerder Portfolio</title>
+    <meta name="description" content="Portfolio van Lander Verbiest - Professionele Systeembeheerder gespecialiseerd in IT infrastructuur, netwerk beheer en cloud oplossingen">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">LV<span class="logo-dot">.</span></span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Over Mij</a></li>
+                <li><a href="#services" class="nav-link">Diensten</a></li>
+                <li><a href="#portfolio" class="nav-link">Expertise</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <div class="hero-image" style="background-image: linear-gradient(135deg, rgba(6,20,40,0.95), rgba(20,50,80,0.9)), url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920');">
+                </div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hallo, ik ben</p>
+            <h1 class="hero-title-logo">Lander Verbiest</h1>
+            <p class="hero-subtitle">Systeembeheerder & IT Specialist</p>
+            <p class="hero-description">Gespecialiseerd in IT infrastructuur, netwerk beheer en cloud oplossingen</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Neem Contact Op</a>
+                <a href="#portfolio" class="btn btn-outline">Bekijk Expertise</a>
+            </div>
+        </div>
+
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-box">
+                        <img src="profile.jpg" alt="Lander Verbiest" class="profile-photo">
+                        <div class="tech-icons">
+                            <i class="fab fa-linux"></i>
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-docker"></i>
+                            <i class="fab fa-aws"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">Over Mij</h2>
+                    <div class="title-underline"></div>
+                    <p class="about-text">
+                        Als gepassioneerde systeembeheerder, geboren in 2005, combineer ik technische expertise met een moderne aanpak van IT infrastructuur.
+                        Mijn specialisatie ligt in het beheren en optimaliseren van complexe IT-systemen, netwerkinfrastructuur en cloud oplossingen.
+                    </p>
+                    <p class="about-text">
+                        Met een sterke focus op beveiliging, automatisering en efficiëntie, help ik organisaties hun IT-omgeving naar een hoger niveau te tillen.
+                        Van server configuratie tot netwerk troubleshooting - ik zorg ervoor dat jouw systemen soepel en veilig draaien.
+                    </p>
+                    <div class="stats-row">
+                        <div class="stat-box">
+                            <h3>2005</h3>
+                            <p>Geboren</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>24/7</h3>
+                            <p>Support</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>100%</h3>
+                            <p>Betrouwbaar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Mijn Diensten</h2>
+            <div class="title-underline center"></div>
+
+            <div class="services-grid">
+                <div class="service-box" data-service="infrastructure">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>IT Infrastructuur Beheer</h3>
+                    <p>Volledige configuratie en beheer van uw IT infrastructuur voor optimale prestaties en betrouwbaarheid.</p>
+                    <ul class="service-list">
+                        <li>Server installatie en configuratie</li>
+                        <li>Windows & Linux systemen</li>
+                        <li>Virtualisatie (VMware, Hyper-V)</li>
+                        <li>Backup en disaster recovery</li>
+                        <li>Monitoring en onderhoud</li>
+                    </ul>
+                </div>
+
+                <div class="service-box" data-service="network">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Netwerk Beheer</h3>
+                    <p>Ontwerp, implementatie en beheer van veilige en efficiënte netwerkoplossingen voor uw organisatie.</p>
+                    <ul class="service-list">
+                        <li>Netwerk design en implementatie</li>
+                        <li>Router en switch configuratie</li>
+                        <li>VPN en firewall setup</li>
+                        <li>WiFi netwerk optimalisatie</li>
+                        <li>Troubleshooting en support</li>
+                    </ul>
+                </div>
+
+                <div class="service-box" data-service="cloud">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Oplossingen</h3>
+                    <p>Migratie naar en beheer van cloud infrastructuur voor schaalbaarheid en kostenefficiëntie.</p>
+                    <ul class="service-list">
+                        <li>Cloud migratie strategie</li>
+                        <li>AWS, Azure, Google Cloud</li>
+                        <li>Hybride cloud oplossingen</li>
+                        <li>Cloud security en compliance</li>
+                        <li>Cost optimization</li>
+                    </ul>
+                </div>
+
+                <div class="service-box" data-service="security">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>IT Beveiliging</h3>
+                    <p>Bescherm uw bedrijf tegen digitale dreigingen met geavanceerde beveiligingsoplossingen.</p>
+                    <ul class="service-list">
+                        <li>Security audits en assessments</li>
+                        <li>Firewall en antivirus beheer</li>
+                        <li>Beveiligingsbeleid ontwikkeling</li>
+                        <li>Incident response</li>
+                        <li>Awareness training</li>
+                    </ul>
+                </div>
+
+                <div class="service-box" data-service="support">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Helpdesk & Support</h3>
+                    <p>24/7 technische ondersteuning om uw bedrijfsprocessen soepel te laten verlopen.</p>
+                    <ul class="service-list">
+                        <li>Remote en on-site support</li>
+                        <li>Ticket systeem beheer</li>
+                        <li>Gebruikers ondersteuning</li>
+                        <li>Hardware troubleshooting</li>
+                        <li>Software installatie</li>
+                    </ul>
+                </div>
+
+                <div class="service-box" data-service="automation">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Automatisering</h3>
+                    <p>Verhoog efficiëntie door automatisering van repetitieve IT taken en processen.</p>
+                    <ul class="service-list">
+                        <li>Scripting (PowerShell, Bash)</li>
+                        <li>CI/CD pipeline setup</li>
+                        <li>Infrastructure as Code</li>
+                        <li>Process automation</li>
+                        <li>Monitoring automation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio/Expertise Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Technische Expertise</h2>
+            <div class="title-underline center"></div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Operating Systems</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Windows Server</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Linux (Ubuntu, CentOS, Debian)</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-network-wired"></i> Networking</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>TCP/IP, DNS, DHCP</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Cisco & Ubiquiti</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>VPN & Firewall</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & Virtualization</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>VMware & Hyper-V</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>AWS & Azure</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Docker & Kubernetes</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Scripting & Automation</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>PowerShell</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Bash Scripting</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Python</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Security</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>IT Security Best Practices</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Antivirus & Endpoint Protection</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases & Backup</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>SQL Server & MySQL</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Backup Solutions (Veeam, Acronis)</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Neem Contact Op</h2>
+            <div class="title-underline center"></div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Laten we samenwerken</h3>
+                    <p>Op zoek naar een betrouwbare systeembeheerder? Vul het formulier in en ik neem zo snel mogelijk contact met je op om te bespreken hoe ik je kan helpen.</p>
+
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>lander.verbiest@student.hogent.be</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefoon</h4>
+                                <p>+32 477 28 93 65</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Locatie</h4>
+                                <p>België</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Beschikbaarheid</h4>
+                                <p>Ma - Vr: 9:00 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="NAAM *" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="EMAIL *" required>
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <div class="phone-input-wrapper">
+                                <select id="countryCode" name="countryCode" class="country-code-select" required>
+                                    <option value="+32" selected>🇧🇪 +32</option>
+                                    <option value="+31">🇳🇱 +31</option>
+                                    <option value="+33">🇫🇷 +33</option>
+                                    <option value="+49">🇩🇪 +49</option>
+                                    <option value="+44">🇬🇧 +44</option>
+                                    <option value="+34">🇪🇸 +34</option>
+                                    <option value="+39">🇮🇹 +39</option>
+                                    <option value="+351">🇵🇹 +351</option>
+                                    <option value="+41">🇨🇭 +41</option>
+                                    <option value="+43">🇦🇹 +43</option>
+                                    <option value="+45">🇩🇰 +45</option>
+                                    <option value="+46">🇸🇪 +46</option>
+                                    <option value="+47">🇳🇴 +47</option>
+                                    <option value="+48">🇵🇱 +48</option>
+                                    <option value="+358">🇫🇮 +358</option>
+                                    <option value="+353">🇮🇪 +353</option>
+                                    <option value="+1">🇺🇸 +1</option>
+                                    <option value="custom">Anders...</option>
+                                </select>
+                                <input type="text" id="customCountryCode" class="custom-country-code" placeholder="+00" style="display: none;">
+                                <input type="tel" id="phone" name="phone" placeholder="477 12 34 56 *" required>
+                            </div>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <select id="eventType" name="eventType" required>
+                                <option value="">Service Type *</option>
+                                <option value="IT Infrastructuur">IT Infrastructuur Beheer</option>
+                                <option value="Netwerk">Netwerk Beheer</option>
+                                <option value="Cloud">Cloud Oplossingen</option>
+                                <option value="Beveiliging">IT Beveiliging</option>
+                                <option value="Support">Helpdesk & Support</option>
+                                <option value="Automatisering">Automatisering</option>
+                                <option value="Consultancy">IT Consultancy</option>
+                                <option value="Anders">Anders</option>
+                            </select>
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="company" name="company" placeholder="Bedrijfsnaam (optioneel)">
+                        <span class="error-message"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="6" placeholder="Beschrijf uw IT vraagstuk of wensen *" required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span class="btn-text">Verstuur Aanvraag</span>
+                        <span class="btn-loader"></span>
+                    </button>
+
+                    <div id="formFeedback" class="form-feedback"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">LV<span class="logo-dot">.</span></span>
+                    <p>Professionele IT Oplossingen</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">Over Mij</a>
+                    <a href="#services">Diensten</a>
+                    <a href="#portfolio">Expertise</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lander Verbiest - Systeembeheerder</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
